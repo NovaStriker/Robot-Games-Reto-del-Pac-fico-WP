@@ -1,1105 +1,886 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./css/animate.css">
-	<link rel="stylesheet" type="text/css" href="./css/service-box.css">
-	<title>Reto del Pacífico</title>
-</head>
-
-<body>
-	<div class="container" style="margin-bottom: 50px;">
-   		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="./index.html">RGRP</a>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav pull-right">
-						<li><a href="./index.html">Inicio</a></li>
-						<li><a href="./categorias.html">Categor&iacuteas</a></li>
-						<li><a href="./resultados.html">Resultados</a></li>
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
+    <link rel="stylesheet" type="text/css" href="./css/service-box.css">
+    <title>Reto del Pacífico</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">RGRP</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./categorias.html">Categor&iacuteas</a></li>
+            <li><a href="./resultados.html">Resultados</a></li>
             <li class="active"><a href="./cronograma.html">Cronograma<span class="sr-only">(current)</span></a></li>
             <li><a href="./faq.html">FAQ</a></li>
-						<li><a href="./contacto.html">Contacto</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row" id="carrusel-resultados">
+        <div class="col-sm-12 nopadding">
+          <div class="carrusel-auspiciantes">
+            <div id="carrusel-1" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carrusel-1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrusel-1" data-slide-to="1"></li>
+                    <li data-target="#carrusel-1" data-slide-to="2"></li>
+                    <li data-target="#carrusel-1" data-slide-to="3"></li>
+                    <li data-target="#carrusel-1" data-slide-to="4"></li>
+                  </ol>
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">Categoría 1</div>
+                          <div class="panel-body">
+                            Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
+                            Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
+                            Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">Categoría 2</div>
+                          <div class="panel-body">
+                            Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
+                            Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
+                            Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">Categoría 3</div>
+                          <div class="panel-body">
+                            Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
+                            Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
+                            Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 4</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">Categoría 5</div>
+                          <div class="panel-body">
+                            Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
+                            Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
+                            Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 6</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="item">
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 7</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 8</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 9</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 10</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 11</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 12</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="item">
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 13</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 14</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">Categoría 15</div>
+                          <div class="panel-body">
+                            Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
+                            Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
+                            Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 16</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">Categoría 17</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            En curso<span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 18</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 19</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 20</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 21</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 22</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 23</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 24</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 25</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 26</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 27</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 28</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 in-line-block center-block">
+                        <div class="panel panel-primary">
+                          <div class="panel-heading">Categoría 29</div>
+                          <div class="panel-body">
+                            <span class="badge badge-1 pull-right">1</span><br>
+                            <span class="badge badge-2 pull-right">2</span><br>
+                            <span class="badge badge-3 pull-right">3</span><br>
+                            <p style="color: #7F8487"><strong>Lugar / día</strong></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="cabecera">
+        <div class="div-redes">
+          <h2 class="titulos-2" style="text-align: center;">Torneo Internacional de Robótica</h2>
+          <h1 class="titulos-1" style="text-align: center;"">Robot Games Reto del Pacífico</h1>
+          <h1 class="titulos-2">Resultados</h1>
+        </div>
+      </div>
+
+      <div class="row" id="cronograma">
+        <div class="center-block quitar-float div-cronograma">
+            <div class="panel-responsive panel-primary div-tabla">
+              <!-- Default panel contents -->
+              <div class="panel-heading titulos-2-2">Día 1 / fecha</div>
+              <!-- Table -->
+              <table class="table table-striped">
+                <tr>
+                  <td><strong>HORA</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>LUGAR</strong></td>
+                </tr>
+                <tr>
+                  <td>10H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>10H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            
+            <div class="panel-responsive panel-primary div-tabla">
+              <!-- Default panel contents -->
+              <div class="panel-heading titulos-2-2">Día 2 / fecha</div>
+              <!-- Table -->
+              <table class="table table-striped">
+                <tr>
+                  <td><strong>HORA</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>LUGAR</strong></td>
+                </tr>
+                <tr>
+                  <td>10H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>10H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            
+            <div class="panel-responsive panel-primary div-tabla">
+              <!-- Default panel contents -->
+              <div class="panel-heading titulos-2-2">Día 3 / fecha</div>
+              <!-- Table -->
+              <table class="table table-striped">
+                <tr>
+                  <td><strong>HORA</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>LUGAR</strong></td>
+                </tr>
+                <tr>
+                  <td>10H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>10H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+
+            <div class="panel-responsive panel-primary div-tabla">
+              <!-- Default panel contents -->
+              <div class="panel-heading titulos-2-2">Día 4 / fecha</div>
+              <!-- Table -->
+              <table class="table table-striped">
+                <tr>
+                  <td><strong>HORA</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>ACTIVIDAD</strong></td>
+                  <td><strong>LUGAR</strong></td>
+                </tr>
+                <tr>
+                  <td>10H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>10H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>11H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>12H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>13H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>14H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>15H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>16H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H00</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+                <tr>
+                  <td>17H30</td>
+                  <td>actividad a desarrollar</td>
+                  <td>actividad a desarrollar</td>
+                  <td>lugar / edificio / bloque / sección</td>
+                </tr>
+              </table>
+            </div>
+        </div>
+      </div>
+
+      <div class="row" id="redes">
+            <div class="div-redes">
+              <div class="col-md-2 in-line-block">
+                <h2 class="titulos-2" style="text-align: left;">Síguenos</h2>
+              </div>
+              <div class="col-md-1 in-line-block">
+                <a href="https://facebook.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
+              </div>
+              <div class="col-md-1 in-line-block">
+                <a href="https://twitter.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
+              </div>
+              <div class="col-md-1 in-line-block">
+                <a href="https://youtube.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
+              </div>
+              <div class="col-md-1 in-line-block">
+                <a href="https://instagram.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
+              </div>
+            </div>
+      </div>
+
+      <div class="row" id="footer">
+        <div class="col-sm-12 nopadding">
+          <footer class="contenedor-footer">
+            <p>Reto del Pacífico - RGRP marca registrada - Guayaquil - Ecuador</p>
+            <p>Todo el contenido de esta página es propiedad de Club Robota-ESPOL</p>
+            <p>Formato vigencia 2017 - 2018</p>
+          </footer>
+        </div>
+      </div>
     </div>
 
-	<div class="carrusel-auspiciantes">
-	    <div id="carrusel-1" class="carousel slide" data-ride="carousel">
-	        <!-- Carousel indicators -->
-	        <ol class="carousel-indicators">
-	            <li data-target="#carrusel-1" data-slide-to="0" class="active"></li>
-	            <li data-target="#carrusel-1" data-slide-to="1"></li>
-	            <li data-target="#carrusel-1" data-slide-to="2"></li>
-	            <li data-target="#carrusel-1" data-slide-to="3"></li>
-	            <li data-target="#carrusel-1" data-slide-to="4"></li>
-	            <li data-target="#carrusel-1" data-slide-to="5"></li>
-	        </ol>   
-	        <!-- Wrapper for carousel items -->
-	        <div class="carousel-inner">
-	            <div class="item active">
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-danger">
-  							<div class="panel-heading">Categoría 1</div>
-  							<div class="panel-body">
-    							Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
-    							Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
-    							Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-danger">
-  							<div class="panel-heading">Categoría 2</div>
-  							<div class="panel-body">
-    							Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
-    							Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
-    							Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-danger">
-  							<div class="panel-heading">Categoría 3</div>
-  							<div class="panel-body">
-    							Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
-    							Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
-    							Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 4</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-danger">
-  							<div class="panel-heading">Categoría 5</div>
-  							<div class="panel-body">
-    							Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
-    							Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
-    							Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 6</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            </div>
-
-	            <div class="item">
-	                <div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 7</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-    						</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 8</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 9</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 10</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 11</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 12</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-	            </div>
-	            <div class="item">
-	                <div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 13</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 14</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-danger">
-  							<div class="panel-heading">Categoría 15</div>
-  							<div class="panel-body">
-    							Nombre competidor<span class="badge badge-1 pull-right">1</span><br>
-    							Nombre competidor<span class="badge badge-2 pull-right">2</span><br>
-    							Nombre competidor<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 16</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-success">
-  							<div class="panel-heading">Categoría 17</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							En curso<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / 00h00</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 18</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-	            </div>
-
-	            <div class="item">
-	                <div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 19</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 20</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 21</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 22</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 23</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 24</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-	            </div>
-
-	            <div class="item">
-	                <div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 25</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 26</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 27</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 28</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 29</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 30</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-	            </div>
-
-	            <div class="item">
-	                <div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 31</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 32</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 33</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 34</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 35</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-
-	            	<div class="col-md-2 col-sm-2 in-line-block center-block">
-	            		<div class="panel panel-primary">
-  							<div class="panel-heading">Categoría 36</div>
-  							<div class="panel-body">
-    							<span class="badge badge-1 pull-right">1</span><br>
-    							<span class="badge badge-2 pull-right">2</span><br>
-    							<span class="badge badge-3 pull-right">3</span><br>
-    							<p style="color: #7F8487"><strong>Lugar / día</strong></p>
-  							</div>
-						</div>
-	            	</div>
-	            </div>
-	        </div>
-	        
-	    </div>
-	</div>
-
-	<h2 class="titulos-2" style="text-align: center;">Torneo Internacional de Robótica</h2>
-	<h1 class="titulos-1" style="text-align: center;"">Robot Games Reto del Pacífico</h1>
-	<h2 class="titulos-2">Cronograma de Actividades</h2>
-
-  <div class="center-block quitar-float div-cronograma">
-    <section>
-      <div class="panel-responsive panel-primary div-tabla">
-        <!-- Default panel contents -->
-        <div class="panel-heading titulos-2-2">Día 1 / fecha</div>
-        <!-- Table -->
-        <table class="table table-striped">
-
-          <tr>
-            <td><strong>HORA</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>LUGAR</strong></td>
-          </tr>
-
-          <tr>
-            <td>10H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>10H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-        </table>
-      </div>
-      <br>
       
-      
-    </section>
 
-    <section>
-      <div class="panel-responsive panel-primary div-tabla">
-        <!-- Default panel contents -->
-        <div class="panel-heading titulos-2-2">Día 2 / fecha</div>
-        <!-- Table -->
-        <table class="table table-striped">
-
-          <tr>
-            <td><strong>HORA</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>LUGAR</strong></td>
-          </tr>
-
-          <tr>
-            <td>10H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>10H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-        </table>
-      </div>
-      <br>
-      
-      
-    </section>
-
-    <section>
-      <div class="panel-responsive panel-primary div-tabla">
-        <!-- Default panel contents -->
-        <div class="panel-heading titulos-2-2">Día 3 / fecha</div>
-        <!-- Table -->
-        <table class="table table-striped">
-
-          <tr>
-            <td><strong>HORA</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>LUGAR</strong></td>
-          </tr>
-
-          <tr>
-            <td>10H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>10H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-        </table>
-      </div>
-
-    </section>
-
-    <section>
-      <div class="panel-responsive panel-primary div-tabla">
-        <!-- Default panel contents -->
-        <div class="panel-heading titulos-2-2">Día 4 / fecha</div>
-        <!-- Table -->
-        <table class="table table-striped">
-
-          <tr>
-            <td><strong>HORA</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>ACTIVIDAD</strong></td>
-            <td><strong>LUGAR</strong></td>
-          </tr>
-
-          <tr>
-            <td>10H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>10H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>11H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>12H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>13H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>14H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>15H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>16H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H00</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-          <tr>
-            <td>17H30</td>
-            <td>actividad a desarrollar</td>
-            <td>actividad a desarrollar</td>
-            <td>lugar / edificio / bloque / sección</td>
-          </tr>
-
-        </table>
-      </div>
-      
-    </section>
-
-  </div>
-
-  
-
-	<div class="col-md-12"></div>
-
-  <div class="container-responsive col-md-12 div-redes">
-    <section>
-      <div class>
-        
-        <p></p>
-        <div class="col-md-2 in-line-block">
-          <article>
-            <h2 class="titulos-2" style="text-align: left;">Síguenos</h2>
-          </article>
-        </div>
-        <div class="col-md-1 in-line-block">
-          <article>
-              
-            <a href="https://facebook.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
-            <p></p>
-          </article>
-        </div>
-
-        <div class="col-md-1 in-line-block">
-          <article>
-              
-            <a href="https://twitter.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
-            <p></p>
-          </article>
-        </div>
-
-        <div class="col-md-1 in-line-block">
-          <article>
-            
-            <a href="https://youtube.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
-            <p></p>
-          </article>
-        </div>
-
-        <div class="col-md-1 in-line-block">
-          <article>
-            <a href="https://instagram.com" target="blanck"><img src="./imgs/redes.png" class="img-circle"></a>
-            
-            <p></p>
-          </article>
-        </div>
-      </div>
-    </section>
-  </div>
-
-
-	<div class="container-responsive col-md-12">
-		<footer>
-			<div class="contenedor-footer">
-				<p>Reto del Pacífico - RGRP marca registrada - Guayaquil - Ecuador</p>
-				<p>Todo el contenido de esta página es propiedad de Club Robota-ESPOL</p>
-				<p>Formato vigencia 2017 - 2018</p>
-			</div>
-		</footer>
-	</div>
-
-	<script src="./js/jquery.js"></script>
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-</body>
+       
+    <script src="./js/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>

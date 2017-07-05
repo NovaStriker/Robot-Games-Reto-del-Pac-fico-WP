@@ -18,8 +18,8 @@ img{
 
 /* CAMBIO */
 p{
-	/*margin-left: 5%;*/
-	/*margin-right: 5%;*/
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: center;
 	text-align: top;
 }
@@ -76,17 +76,11 @@ div{
 
 
 .div-faq{
-	margin: 20px;
 	background-color: #FFFFFF;
-	max-width: 100%;
 }
 
 .div-redes{
-	margin-left: 0px;
-	margin-right: 0px;
-	border-width: 0px;
-	border-color: #090B40;
-	
+	margin-top: 30px;
 }
 
 .div-cronograma{
@@ -151,7 +145,7 @@ div{
 
 .carousel{
     background: #2f4357;
-    margin-top: 20px;
+    margin-top: 50px;
     interval: 5000;
 }
 
@@ -164,6 +158,7 @@ div{
 }
 
 /* CAMBIO */
+/* ya no existe*/
 .carrusel-auspiciantes{
 	/*margin: 0px;*/
 	/*width: 100%;*/
